@@ -50,7 +50,7 @@ class Login extends Component {
 
         if (this.state.username === "admin" && this.state.password === "admin") {
             sessionStorage.setItem('username','admin');
-            sessionStorage.setItem('access-token', 'set your access token here');
+            sessionStorage.setItem('access-token', 'IGQVJYN0h2cXdMU0doR2F2LVhiR2otM3hBTXBCNEpMdnI2eWgxZAWRvS0xUd2NSaFpkc1NJeE11NzZAXNDJYUVZAJWGtwNDhkZADBYM1gyN3B5VWVWSkRudExOWldBR0RNSHdGTVp2aHkxMElUY3RMQzdyUAZDZD');
             this.setState({ loggedIn: true });
 
             // Once login is validated and successful, navigation to Home UI page is performed
